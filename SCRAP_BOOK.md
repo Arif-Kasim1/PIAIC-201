@@ -1,7 +1,9 @@
 recipe_llm = HuggingFaceEndpoint(
-    repo_id = "Qwen/QwQ-32B-Preview", #"meta-llama/Llama-3.2-3B-Instruct",
-    huggingfacehub_api_token = userdata.get('HUGGINGFACE_API_KEY')
-)
+    repo_id = "Qwen/QwQ-32B-Preview", 
+    huggingfacehub_api_token = userdata.get('HUGGINGFACE_API_KEY'))
+    
+    repo_id = "meta-llama/Llama-3.2-3B-Instruct",
+     
  
 embeddings = GoogleGenerativeAIEmbeddings(model="models/embedding-001",
                           google_api_key=userdata.get("GOOGLE_API_KEY"))
