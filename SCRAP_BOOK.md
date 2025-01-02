@@ -12,7 +12,7 @@ llm = ChatGoogleGenerativeAI(model="gemini-1.5-flash", temperature=0.3)
   
  import nest_asyncio
 nest_asyncio.apply() #to solve asyncio problem in Crewai Flow
-----------------------------------------------------------------------------
+ 
 
 
 
