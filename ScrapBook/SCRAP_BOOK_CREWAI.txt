@@ -1,1 +1,2 @@
-
+import nest_asyncio
+nest_asyncio.apply() #to solve asyncio problem in Crewai Flow
