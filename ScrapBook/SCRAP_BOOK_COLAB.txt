@@ -1,1 +1,1 @@
-
+hotkey Ctrl + F9 (Colab: Run all cell)
