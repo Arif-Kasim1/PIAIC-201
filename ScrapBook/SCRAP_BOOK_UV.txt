@@ -1,0 +1,3 @@
+pip install uv
+uv venv venv #Create new environment
+venv\Scripts\activate #activate the new environment
