@@ -1,1 +1,1 @@
-facenet-pytorch
+facenet-pytorch, milvus(db)/lite, chroma(db)
