@@ -1,1 +1,1 @@
-facenet-pytorch, milvus(db)/lite, chroma(db)
+facenet-pytorch, milvus(db)/lite, chroma(db), vision rag
