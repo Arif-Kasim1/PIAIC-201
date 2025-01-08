@@ -2,3 +2,4 @@ pip install uv
 uv init foo #to create project folder
 uv venv venv #Create new environment
 venv\Scripts\activate #activate the new environment
+uv run python file_name.py
